@@ -1,0 +1,28 @@
+.presentation
+{
+    /*background-image: url('./../img/background-presentation.jpg');
+    background-size: contain;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.presentation__title
+{
+    font-family: 'Ave Fedan';
+    font-size: 1.3rem;
+}
+.presentation__description
+{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight : 400;
+}
+.presentation__button
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight : 700;
+    text-transform: uppercase;
+    color: white;
+}

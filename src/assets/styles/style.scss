@@ -1,4 +1,9 @@
 @import 'vendors/reset.scss';
 @import 'global/global.scss';
+@import 'global/variables.scss';
+@import 'global/fonts.scss';
 
+@import 'bloc/body.scss';
 @import 'bloc/header.scss';
+@import 'bloc/presentation.scss';
+@import 'bloc/details.scss';
