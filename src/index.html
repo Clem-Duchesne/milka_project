@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/styles/style.scss">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../src/assets/styles/style.scss">
     <title>Milka</title>
 </head>
 <body>
     <header class="header">
-        <a class="header__link" href="index.html">Milka</a>
+        <a class="header__link" href="index.html"><img src="./../src/assets/img/header.png" alt="Logo Milka"></a>
     </header>
     <section class="presentation">
-        <h1 class="presentation__title">Milka Au Lait du Pays Alpin</h1>
+        <img class="presentation__product" src="./../src/assets/img/background-presentation-mobile.png" alt="Tablette Milka au lait du Pays Alpin">
+        <h1 class="presentation__title hidden">Milka Au Lait du Pays Alpin</h1>
         <p class="presentation__description">Laissez-vous tenter par la tendresse du chocolat au Lait Milka : 
             ses ingrédients simples, du cacao associé au Lait du Pays Alpin et son savoir faire unique, 
             le rendent vraiment fondant. Alors n’hésitez pas à vous faire plaisir de temps en temps ! </p>
-            <a class="presentation__button" href="#" class="">Découvrir</a>
+            <a class="presentation__button" href="#details" class="">Découvrir</a>
     </section>
-    <section class="details">
+    <section class="details" id="details">
         <h2 class="details__title">Un goûter riche</h2>
         <p class="details__description">Le goûter est un moment important et privilégié dans la vie des enfants. Un goûter particulièrement savoureux que les enfants adorent.</p>
         <article class="details__ingredients ingredients">
@@ -27,7 +29,7 @@
             <P class="ingredients__description">Sucre, beurre de cacao, poudre de lait écrémé, pâte de cacao, lactosérum en poudre (lait), beurre concentré, émulsifiant (lécithine de soja), pâte de noisettes, arôme. Cacao: 30% minimum dans le chocolat au lait du pays alpin. Peut contenir autres fruits à coque et blé. </P>
             <a class="ingredients__button">+</a>
         </article>
-        <article class="details__nutrional_values nutritional_values">
+        <article class="details__nutrional_values nutritional_values hidden">
                 <h3 class="nutritional_values__title">Valeurs nutritionnelles</h3>
                 <table class="nutritional_values__table">
                     <thead><th>Informations nutritionnelles</th><th>Pour 100g</th></thead>
