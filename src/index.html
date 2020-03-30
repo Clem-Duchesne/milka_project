@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./../src/assets/styles/style.scss">
     <title>Milka</title>
 </head>
@@ -14,7 +14,7 @@
     </header>
     <section class="presentation">
         <img class="presentation__product" src="./../src/assets/img/background-presentation-mobile.png" alt="Tablette Milka au lait du Pays Alpin">
-        <h1 class="presentation__title hidden">Milka Au Lait du Pays Alpin</h1>
+        <h1 class="presentation__title">Milka Au Lait du Pays Alpin</h1>
         <p class="presentation__description">Laissez-vous tenter par la tendresse du chocolat au Lait Milka : 
             ses ingrédients simples, du cacao associé au Lait du Pays Alpin et son savoir faire unique, 
             le rendent vraiment fondant. Alors n’hésitez pas à vous faire plaisir de temps en temps ! </p>
@@ -27,12 +27,13 @@
             <h3 class="ingredients__title">Ingrédients</h3>
             <p class="ingredients__name">Chocolat au Lait du Pays Alpin</p>
             <P class="ingredients__description">Sucre, beurre de cacao, poudre de lait écrémé, pâte de cacao, lactosérum en poudre (lait), beurre concentré, émulsifiant (lécithine de soja), pâte de noisettes, arôme. Cacao: 30% minimum dans le chocolat au lait du pays alpin. Peut contenir autres fruits à coque et blé. </P>
-            <a class="ingredients__button">+</a>
+            <a class="ingredients__button"><i class="fi-xnluxl-plus"></i>
+            </a>
         </article>
         <article class="details__nutrional_values nutritional_values hidden">
                 <h3 class="nutritional_values__title">Valeurs nutritionnelles</h3>
                 <table class="nutritional_values__table">
-                    <thead><th>Informations nutritionnelles</th><th>Pour 100g</th></thead>
+                    <thead><th class="nutritional_values__thead">Informations nutritionnelles</th><th class="nutritional_values__thead">Pour 100g</th></thead>
                     <tbody>
                         <tr><td class="nutritional_values__name">Valeur Energétique</td><td class="nutritional_values__value">2213 kJ / 530kcal</td></tr>
                         <tr><td class="nutritional_values__name">Matières grasses</td><td class="nutritional_values__value">29.0g</td></tr>
@@ -70,5 +71,7 @@
         <a href="#" class="footer__link">Mentions légales</a>
     </footer>
     
+    <script defer src="./../src/assets/js/friconix.js"> </script>
+    <script defer src="./../src/assets/js/main.js"> </script>
 </body>
 </html>
