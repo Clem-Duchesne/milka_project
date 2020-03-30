@@ -1,9 +1,13 @@
-@import 'vendors/reset.scss';
-@import 'global/global.scss';
-@import 'global/variables.scss';
-@import 'global/fonts.scss';
+@import 'vendors/reset';
+@import 'global/global';
+@import 'global/variables';
+@import 'global/fonts';
 
-@import 'bloc/body.scss';
-@import 'bloc/header.scss';
-@import 'bloc/presentation.scss';
-@import 'bloc/details.scss';
+@import 'bloc/header';
+@import 'bloc/presentation';
+@import 'bloc/details';
+@import 'bloc/ingredients';
+@import 'bloc/nutritional_values';
+@import 'bloc/recipe_section';
+@import 'bloc/recipe';
+@import 'bloc/footer';
