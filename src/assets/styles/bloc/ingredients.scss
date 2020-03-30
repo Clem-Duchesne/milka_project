@@ -1,0 +1,32 @@
+.ingredients
+{
+    color: $purple;
+    border: 5px dashed $purple;
+    padding: $blocPadding;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ingredients__title
+{
+    font-family: $aveFedan;
+    font-size: 1.3rem;
+    margin: $separationBetweenElement;
+}
+.ingredients__name
+{
+
+    font-family: $quicksand;
+    font-size: 1.1rem;
+    margin: $separationBetweenElement;
+}
+.ingredients__description
+{
+    text-align: justify;
+    font-family: $quicksand;
+
+}
+.ingredients__button
+{
+    font-size: 1.3rem;
+}
