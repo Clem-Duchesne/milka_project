@@ -1,0 +1,28 @@
+.recipe_section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: $blocPadding;
+    background-color: $lightpurple;
+}
+.recipe_section__title
+{
+    font-family: $aveFedan;
+    color: white;
+    font-size: $titleSize;
+}
+.recipe_section__description
+{
+    font-family: $quicksand;
+    color: white;
+}
+.recipe_section__grid
+{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+}
