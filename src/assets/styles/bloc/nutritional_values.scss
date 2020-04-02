@@ -1,11 +1,7 @@
 .nutritional_values
 {
     border: 5px dashed $purple;
-    padding: 4%;
-}
-.nutritional_values__table tbody
-{
- 
+    padding: 2%;
 }
 .nutritional_values__title
 {
@@ -13,6 +9,7 @@
     font-family: $aveFedan;
     font-size: $titleSize;
     text-align: center;
+    margin-bottom: 3%;
 }
 .nutritional_values__thead
 {
@@ -21,15 +18,19 @@
     font-size: 1.1rem;
     font-weight: 700;
 }
+
 .nutritional_values__name
 {
     color: $purple;
     font-family: $quicksand;
+    padding: 1%;
 }
 .nutritional_values__value
 {
     color: $purple;
     font-family: $quicksand;
+    text-align: right;
+    padding: 1%;
 }
 .nutritional_values__asterix
 {

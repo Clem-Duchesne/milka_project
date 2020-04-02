@@ -1,4 +1,4 @@
-var plusBtn = document.getElementsByClassName('ingredients__button')[0];
+var plusBtn = document.getElementsByClassName('details__button')[0];
 var nutritionnalValues = document.getElementsByClassName('nutritional_values')[0];
 console.log(nutritionnalValues);
 

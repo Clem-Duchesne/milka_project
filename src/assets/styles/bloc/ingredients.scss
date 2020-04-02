@@ -11,21 +11,24 @@
     font-family: $aveFedan;
     font-size: 1.3rem;
     margin: 2% 0%;
-    border-bottom: 2px dashed $purple;
+    text-decoration: underline wavy $purple;
 }
 .ingredients__name
 {
     margin: 1% 0%;
     font-family: $quicksand;
     font-size: 1.1rem;
+    font-weight: 700;
 }
 .ingredients__description
 {
     text-align: justify;
     font-family: $quicksand;
+    margin-bottom: 2%;
+    @include for-tablet{
+        padding: 0% 10%;
+    }
+    
 
 }
-.ingredients__button
-{
-    font-size: 1.3rem;
-}
+
