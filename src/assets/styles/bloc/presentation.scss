@@ -1,7 +1,5 @@
 .presentation
 {
-    /*background-image: url('./../img/background-presentation.jpg');
-    background-size: contain;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,21 +16,27 @@
 .presentation__page{
     width: 80vw;
     height: auto;
-    border: 10px solid white;
-    box-shadow: 1px 1px 5px black;
+    padding: 1%;
+    border: 10px dotted white;
+    @include for-tablet
+    {
+        border: 20px dotted white;
+    }
 }
 .presentation__title
 {
     font-family: $aveFedan;
     font-size: $titleSize;
     color: white;
+    text-align: center;
+    padding: 2%;
 }
 .presentation__description
 {
     text-align: center;
     font-family: $quicksand;
     font-weight : 400;
-    margin: $separationBetweenElement;
+    padding: 2% 5%;
     color: white;
 }
 .presentation__button
@@ -41,10 +45,11 @@
     font-size: 1.3rem;
     font-weight : 400;
     color: white;
-    padding: 1rem;
+    padding: 2%;
     border-radius: 50px;
     border: 2px solid white;
     transition: linear 0.5s;
+    margin-bottom: 5%;
 
     
 }
@@ -53,8 +58,4 @@
     background-color: white;
     color: $purple;
     transition: linear 0.5s;
-}
-.presentation__product
-{
-    width: 100vw;
 }
