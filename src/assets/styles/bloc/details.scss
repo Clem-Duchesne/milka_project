@@ -1,18 +1,22 @@
 .details
 {
+    margin-top: $separationSpace;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 4%;
 }
 .details__title
 {
-    font-family: 'Ave Fedan';
-    font-size: 1.3rem;
+    font-family: $aveFedan;
+    font-size: $titleSize;
+    color: $purple;
 }
 .details__description
 {
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight : 400;
+    font-family: $quicksand;
+    color: $purple;
+    margin: 5% 0%;
 }
