@@ -14,3 +14,19 @@ a{
 {
     display: none;
 }
+::-webkit-scrollbar {
+    width: 10px;
+   
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: $lightpurple;
+    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $darkpurple;
+    border-radius: 10px;
+  }
