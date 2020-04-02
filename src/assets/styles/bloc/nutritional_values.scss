@@ -1,3 +1,8 @@
+.nutritional_values
+{
+    border: 5px dashed $purple;
+    padding: 4%;
+}
 .nutritional_values__table tbody
 {
  
@@ -20,11 +25,16 @@
 {
     color: $purple;
     font-family: $quicksand;
-    font-size: 1rem;
 }
 .nutritional_values__value
 {
     color: $purple;
     font-family: $quicksand;
-    font-size: 1rem;
+}
+.nutritional_values__asterix
+{
+    color: $purple;
+    font-family: $quicksand;
+    font-size: 0.8rem;
+
 }
