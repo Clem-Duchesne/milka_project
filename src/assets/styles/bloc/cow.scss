@@ -1,0 +1,79 @@
+.cow
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    border-top: 4px dashed $purple;
+    border-bottom: 4px dashed $purple;
+}
+.cow__presentation
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    @include for-tablet{
+        flex-direction: row;
+    }
+
+}
+.cow__presentation div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cow__introduction
+{
+    font-family: $aveFedan;
+    font-size: $titleSize;
+    margin: 6% 0%;
+    color: $purple;
+    @include for-desktop{
+        margin: 0%;
+    }
+}
+.cow__name
+{
+    font-family: $aveFedan;
+    font-size: 2rem;
+    color: $lightpurple;
+    padding: 5%;
+    text-decoration: underline wavy $purple;
+@include for-tablet{
+    padding: 0.5%;
+}
+}
+.cow__description
+{
+    font-family: $quicksand;
+    color: $purple;
+    padding: 6% 4%;
+    text-align: center;
+    @include for-tablet{
+        text-align: justify;
+        padding: 2% 10%;
+        font-size: 1.2rem;
+    }
+    @include for-desktop{
+
+        padding: 2% 18%;
+
+    }
+}
+.cow__picture
+{
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+    border: 4px dotted $purple;
+border-radius: 100%;
+@include for-tablet{
+    height: 350px;
+    width: 350px;
+}
+    
+}
