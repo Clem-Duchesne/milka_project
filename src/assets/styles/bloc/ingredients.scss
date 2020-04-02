@@ -1,8 +1,7 @@
 .ingredients
 {
     color: $purple;
-    border: 5px dashed $purple;
-    padding: $blocPadding;
+    padding: 4%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,14 +10,14 @@
 {
     font-family: $aveFedan;
     font-size: 1.3rem;
-    margin: $separationBetweenElement;
+    margin: 2% 0%;
+    border-bottom: 2px dashed $purple;
 }
 .ingredients__name
 {
-
+    margin: 1% 0%;
     font-family: $quicksand;
     font-size: 1.1rem;
-    margin: $separationBetweenElement;
 }
 .ingredients__description
 {
