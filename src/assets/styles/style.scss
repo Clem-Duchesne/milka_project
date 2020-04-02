@@ -1,13 +1,15 @@
 @import 'vendors/reset';
-@import 'global/global';
 @import 'global/variables';
+@import 'global/global';
 @import 'global/fonts';
+@import 'global/scrollbar.scss';
 
 @import 'bloc/header';
 @import 'bloc/presentation';
 @import 'bloc/details';
 @import 'bloc/ingredients';
 @import 'bloc/nutritional_values';
+@import 'bloc/cow';
 @import 'bloc/recipe_section';
 @import 'bloc/recipe';
 @import 'bloc/footer';
