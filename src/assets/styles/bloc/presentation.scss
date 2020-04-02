@@ -6,23 +6,55 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: $purple;
     
+}
+.presentation__product
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.presentation__page{
+    width: 80vw;
+    height: auto;
+    border: 10px solid white;
+    box-shadow: 1px 1px 5px black;
 }
 .presentation__title
 {
-    font-family: 'Ave Fedan';
-    font-size: 1.3rem;
+    font-family: $aveFedan;
+    font-size: $titleSize;
+    color: white;
 }
 .presentation__description
 {
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: $quicksand;
     font-weight : 400;
+    margin: $separationBetweenElement;
+    color: white;
 }
 .presentation__button
 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight : 700;
-    text-transform: uppercase;
+    font-family: $aveFedan;
+    font-size: 1.3rem;
+    font-weight : 400;
     color: white;
+    padding: 1rem;
+    border-radius: 50px;
+    border: 2px solid white;
+    transition: linear 0.5s;
+
+    
+}
+.presentation__button:hover
+{
+    background-color: white;
+    color: $purple;
+    transition: linear 0.5s;
+}
+.presentation__product
+{
+    width: 100vw;
 }
