@@ -11,9 +11,19 @@ function showDetails(){
     plusBtn.children[0].classList.toggle('fi-xnluxl-plus');
     plusBtn.children[0].classList.toggle('fi-xtluxl-minus-thin');
 }
-
+function showBackBannier(){
+    bannierFront.classList.toggle('hidden');
+    sr.reveal('.presentation__page:nth-child(2)');
+    bannierBack.classList.toggle('hidden');
+    setTimeout(function(){
+        bannierBack.classList.toggle('hidden');
+        
+        sr.reveal('.presentation__page:nth-child(1)');
+        bannierFront.classList.toggle('hidden');
+    },3000);
+}
 plusBtn.addEventListener('click', showDetails, false);
-
+bannierFront.addEventListener('mouseover',showBackBannier, false);
 
 sr.reveal('.presentation__button', {scale : 0.5, reset : true});
 sr.reveal('.details__product', {origin : 'left', distance : '50px', reset : true});
