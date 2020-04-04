@@ -2,9 +2,10 @@
 
 @import 'global/variables';
 @import 'global/fonts';
-@import 'global/scrollbar.scss';
-@import 'global/mixins.scss';
+@import 'global/scrollbar';
+@import 'global/mixins';
 @import 'global/global';
+@import 'global/animation';
 
 @import 'bloc/header';
 @import 'bloc/presentation';

@@ -1,0 +1,14 @@
+@keyframes borderShining {
+    0%{
+        border-color : white;
+    }
+    33%{
+        border-color : $lightpurple;
+    }
+    66%{
+        border-color: $darkpurple;
+    }
+    100%{
+        border-color: white;
+    }
+}

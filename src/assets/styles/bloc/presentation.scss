@@ -18,10 +18,10 @@
     height: auto;
     padding: 1%;
     border: 10px dotted white;
-    @include for-tablet
-    {
+    @include for-tablet{
         border: 20px dotted white;
     }
+    animation : borderShining 3s infinite;
 }
 .presentation__title
 {
