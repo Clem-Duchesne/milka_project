@@ -26,8 +26,8 @@ plusBtn.addEventListener('click', showDetails, false);
 bannierFront.addEventListener('mouseover',showBackBannier, false);
 
 sr.reveal('.presentation__button', {scale : 0.5, reset : true});
-sr.reveal('.details__product', {origin : 'left', distance : '50px', reset : true});
-sr.reveal('.details__ingredients', {origin : 'right', distance : '50px', delay : 200, reset : true});
-sr.reveal('.cow__picture', {origin : 'left', distance : '50px', reset : true});
-sr.reveal('.cow__presentation div', {origin : 'right', distance : '50px', delay : 200, reset : true});
-sr.reveal('.recipe', {origin : 'bottom', duration : 1000, distance : '50px', reset : true});
+sr.reveal('.details__product', {origin : 'left', distance : '5%', reset : true});
+sr.reveal('.details__ingredients', {origin : 'right', distance : '5%', delay : 200, reset : true});
+sr.reveal('.cow__picture', {origin : 'left', distance : '5%', reset : true});
+sr.reveal('.cow__presentation div', {origin : 'right', distance : '5%', delay : 200, reset : true});
+sr.reveal('.recipe', {origin : 'bottom', duration : 1000, distance : '5%', reset : true});
